@@ -60,9 +60,11 @@ def send_email_notification(url, timestamps):
     Send email using SendGrid after file save
     """
     # SendGrid credentials
-    SENDGRID_API_KEY = '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'
+    SENDGRID_API_KEY = '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'
     FROM_EMAIL = 'muraliju981@gmail.com'
     TO_EMAIL = 'josephstalin981@gmail.com' 
+
+    
 
     message = Mail(
         from_email=FROM_EMAIL,
