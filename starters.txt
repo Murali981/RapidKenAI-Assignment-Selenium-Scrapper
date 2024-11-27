@@ -1,0 +1,22 @@
+### Installation Requirements ###
+
+!apt-get update
+!apt install chromium-chromedriver
+!pip install selenium
+!pip install sendgrid
+
+
+### Verifying (or) viewing the file that is saved to google collab ####
+
+!cat youtube_info.txt
+
+### Downloading the file from google collab to our local file system ####
+
+from google.colab import files
+files.download('youtube_info.txt')
+
+# SendGrid credentials
+    
+SENDGRID_API_KEY = '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'
+FROM_EMAIL = 'muraliju981@gmail.com'
+TO_EMAIL = 'josephstalin981@gmail.com' 
