@@ -21,3 +21,29 @@ SENDGRID_API_KEY_RapidkenAI = 'SG.43VrHzK2QGKPvTWfdYudQw.ikThdbocoozdf4JFNJJJPhF
 SENDGRID_API_KEY_AutomateX = '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'
 FROM_EMAIL = 'muraliju981@gmail.com'
 TO_EMAIL = 'josephstalin981@gmail.com' 
+
+
+#############################################################################################
+
+STRIPE_SECRET_KEY=sk_test_51Q7cTISFEVzUW9BwUjCqtZUrNaow1jFm4JOu8GnyQJo0ECth1cndGCpP7Ip9piQT0m7qaTRBqioxqFDZfJDoGbdg00CBxoC2uV
+STRIPE_WEBHOOK_SECRET=whsec_niI2H3Z4shnZV14wECyvLCx9LU4EoAET
+
+NODE_ENV=development
+PORT=3000
+USERNAME=MURALI
+PASSWORD=123456
+DATABASE=mongodb+srv://josephstalin981:<PASSWORD>@cluster0.1oz6m.mongodb.net/natours?retryWrites=true
+DATABASE_PASSWORD=44ExXa53icEPI84S
+
+# &w=majority&appName=Cluster0
+
+JWT_SECRET=my-super-secure-ultra-secret-string-password
+JWT_EXPIRES_IN=90d # Here the 90d means 90 days which our signing algorithm automatically figure out that 90d means 90 days
+JWT_COOKIE_EXPIRES_IN=90 # Here the 90 means 90 days 
+
+##### Below Credentials are for MAIL TRAP , We are using SendGrid for sending real emails , So no need the below ones #############
+EMAIL_USERNAME=eb1a07d60d0c0d
+EMAIL_PASSWORD=220c7ceb004c00
+EMAIL_HOST=sandbox.smtp.mailtrap.io
+EMAIL_PORT=25
+############################################################
